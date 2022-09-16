@@ -35,7 +35,6 @@ Console.WriteLine("Введите строки через " + '"' + ";" + '"');
 string text = Console.ReadLine();
 if (text != string.Empty)
 {
-    SplitTheString(text);
     string[] textArray = SplitTheString(text);
     string[] correctArray = CorrectTheLine(textArray);
     PrintLines(correctArray);
